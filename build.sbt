@@ -2,7 +2,7 @@ name := "scala-influxdb-client"
 
 organization := "com.paulgoldbaum"
 
-scalaVersion := "2.12.0"
+scalaVersion := "2.11.7"
 crossScalaVersions := Seq("2.12.0", "2.11.7", "2.10.6")
 
 testOptions in Test += Tests.Argument("-oDF")
